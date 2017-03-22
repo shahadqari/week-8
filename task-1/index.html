@@ -48,7 +48,31 @@
   </div>
 
 <script>
-  
+  var number1=10;
+  var number2=20;
+  var sum = number1 + number2;
+  console.log(sum);
+
+  function logToConsole(){
+console.log("sum from function",sum);
+  }
+//  logToConsole();
+function logSum(a,b){
+  var sum =a+b;
+  console.log("logSum:",sum);
+}
+//logSum(30, 4.8);
+//console.log(sum);
+
+var x =logSum(30,70);
+console.log("value of x:", x);
+
+function giveMeSum(a,b){
+  var sum=a+b;
+  return sum;
+}
+var y = giveMeSum (12,7.54);
+console.log("value of y:", y);
 </script>
 
 
